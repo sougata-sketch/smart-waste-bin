@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import styles from "../../style/Home/Sensordashboard.module.css";
 
-const API_URL = "http://localhost:3001/api/sensor-data/latest";
+const APIURL = "https://smart-waste-bin-server.onrender.com/api/sensor-data/latest";
 
 const DEFAULT_DATA = {
     plastic: false,
